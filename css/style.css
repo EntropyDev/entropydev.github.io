@@ -1,0 +1,485 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Bellefair';
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans';
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	min-width: 320px;
+	overflow-x: hidden;
+	background: transparent;
+	
+	color: #2f2f2f;
+
+}
+.btn {
+  position: relative;
+
+  display: block;
+  margin: 20px auto;
+  padding: 0;
+  width: 70px;
+  height: 30px;
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 3px;
+  
+  line-height: 22px;
+  background-color: #3ABA73;
+  color: #2f2f2f;
+  
+  
+}
+.content{
+	text-align:center;
+}
+
+img{
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+h3{
+	font-family: 'Josefin Slab';
+	font-size: 38px;
+	font-weight: bold;
+
+}
+
+h2{
+	font-family: 'Josefin Slab';
+	font-size: 36px;
+	font-weight: 100;
+}
+
+
+#me{
+	padding: 0;
+	margin: 0;
+}
+#home{
+	width: 50%;
+	border-radius: 10px;
+}
+
+/* -- -- -- -- -- -- */
+
+
+/* Content */
+
+.full-page {
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+
+.full-page:nth-child(odd) {
+    background: #EEF1F6;
+}
+
+.row{
+	
+	width: 100%;
+	min-height: 1px;
+	float: center;
+	
+}
+
+.col{
+	background: transparent;
+	min-height: 40px;
+	
+	
+	display: inline-block;
+	float: center;
+	font-family: 'Josefin Slab', cursive;
+	font-weight: 200px;
+
+}
+
+.inner{
+	padding-top: 0px;
+}
+
+.center{
+	padding:3% 0 0 0;
+}
+
+.col.md h4{
+	-webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+            transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+            perspective: inherit;
+    z-index: 2;
+}
+
+
+.col.md:hover{
+	-webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            box-shadow: none;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            transition: transform .8s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+
+
+.col.sm:hover{
+	-webkit-transform: scale(1.2,1.2);
+	-webkit-transition: 0.8s;
+}
+.col:first-child{
+	margin-left: 0px;
+}
+.col:last-child{
+	margin-right: 0px;
+}
+
+.col.lg{
+	background: cover;
+}
+.col.md{
+	width: 210px;
+	box-shadow: 0 10px 12px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    height: 210px;
+    border-radius: 0px;
+    cursor:pointer;
+   	line-height: 320px;
+   	font-weight: bold;
+   
+}
+
+.col.md2{
+	
+	width:200px;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    height: 175px;
+    border-radius: 0px;
+    border:1px solid #BEC6CB;
+    cursor:pointer;
+   	line-height: 20px;
+   	font-weight: bold;
+   	margin-bottom: 20px; 
+   	display: inline-grid;
+   	text-align: center;
+   	margin-right: 30px;
+   	 
+color: #fff;
+}
+
+#coursera{
+	top: 0;
+	background-image: url('http://blog.datacamp.com/wp-content/uploads/2014/09/coursera_logo_RGB.jpg');
+	background-size: 200px auto;
+    background-repeat: no-repeat;background-position: center;
+
+}
+#udacity{
+	top: 0;
+	   background-image: url('http://www.kdnuggets.com/wp-content/uploads/udacity-logo.jpg');
+		background-size: 200px auto;
+     background-repeat: no-repeat;background-position: center;
+
+}
+
+.col.sm{
+	width: 12%;
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+   cursor:pointer;   
+    height:150px;
+    width:150px;
+    line-height: 350px;
+    font-weight: bold;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    
+	}
+
+
+.col.md2:hover{
+	-webkit-transform: scale(1.15,1.15);
+	transition: 0.8s;
+}
+
+/* -- -- -- -- -- -- */
+
+/*  Tile Flip   */
+
+.side{
+  backface-visibility: hidden;
+  border-radius: 0px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.back{
+  background: #fff;
+  box-shadow: none;
+  color: #2f2f2f;
+  line-height: 50px;
+  text-align: center;
+  transform: rotateY(180deg);
+  font-family: "Bellefair";
+  font-size: 26px;
+}
+
+/* -- -- -- -- -- -- */
+
+
+
+/* Project Tiles  */
+
+#crawler{
+	background-image: url('img/wall/1.png'); 
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+
+
+#microservices{
+background: #05BC91;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#pinterest{
+background:#8A47BD;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#tweeter{
+background:#D9B860;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#log{
+background:#028DB4;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#affinity{
+background: #C04165;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#chat{
+background: #CD793E;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#snippets{
+	background: #C04165;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#land{
+	background: #D9B860;
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+/* -- -- -- -- -- -- -- */
+
+/* Profiles */
+
+#github{
+	background-image: url(https://image.flaticon.com/icons/png/512/25/25231.png);
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center;
+}
+#linkedin{
+	background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png);
+    background-size: 150px 150px;
+     background-repeat: no-repeat;background-position: center
+
+}
+#codepen{
+	background-image: url(http://www.katarzyna-kwasniewska.co.uk/img/codepen.png);
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center
+
+}
+#freecodecamp{
+	background-image: url(https://image.ibb.co/bKeMUk/fcc.png);
+    background-size: 130px 130px;
+     background-repeat: no-repeat;background-position: center
+
+}
+
+/* -- -- -- -- -- */
+
+/* Menu */
+
+.menu a,h4{
+	padding-right: 11px;
+	text-decoration: none;
+	
+	font-family: 'Bellefair';
+	font-size: 17px;
+	color: #2f2f2f;
+}
+.menu a:hover{
+	color: #3ABA73;
+}
+
+
+#portfolio{
+	font-size: 19px;
+}
+
+/*  -- -- -- -- -- --  */
+
+/*  -- Progressbar --  */
+
+.progress{
+	width: 50%;
+	padding-left: 25%;
+	padding-top: 130px;
+}
+
+.text{
+	font-family: "Bellefair";
+	font-size: 28px;
+	line-height: 40px;
+	color: #2f2f2f;
+}
+
+.snake {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	margin: 0 auto;
+	padding: 20px;
+  
+	list-style: none;
+ 
+}
+
+li {
+	display: inline-flex;
+  	
+	display: block;
+	height: 20px;
+	position: absolute;
+}
+.ribbon{
+
+	justify-content: space-between;
+  	width:6%;
+	height: 20px;
+	margin-left: 20px;
+	position: relative;
+	background: #85ffd5;
+	border-radius: 20px;
+	border-bottom: 4px solid #3BA99C;
+}
+.barback{
+  	justify-content: space-between;
+ 	width: 100%;
+	height: 20px;
+	margin-left: 20px;
+	position:fixed;
+  	z-index:-3;
+	background: #eee;
+	border-radius: 20px;
+	border-bottom: 4px solid #ddd;
+}
+#dot{
+  @extend .ribbon;
+  margin-left:95%;
+  margin-top:7px;
+  background: #3BA99C;
+	height: 8px;
+	width: 9px;
+	border-radius: 10px;
+	right: 20px;
+	bottom: 8px;
+	border-color: transparent;
+}
+@keyframes hireme{
+	0%,80%{
+	-webkit-transform: scaleX(2);
+	transition: 0.7s;
+	}
+}
+
+/*  -- -- -- -- -- --  */
+
+/* About Me */
+
+.aboutme{
+	font-family: 'Josefin Slab';
+	font-size: 30px;
+	font-weight: 1200px;
+	width: 60%;
+	display: block;
+	text-align: center;
+	padding-left: 20%;
+}
+
+/* -- -- -- -- -- -- */
+
+/*  Footer  */
+
+.hashtag{
+	bottom: 0;
+
+}
+
+.hash a{
+	padding-right: 7px;
+	font-family: 'Alegreya Sans';
+	font-size: 20px;
+}
+#e1{color: #38ACEC;}
+#e2{color: #728C00;}
+#e3{color: #E9AB17;}
+#e4{color: #6F4E37;}
+#e5{color: #2B60DE;}
+#e6{color: #F535AA;}
+#e7{color: #9172EC;}
+#e8{color: #F88017;}
+
+/* -- -- -- -- -- -- */
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background:url(../images/img-gototop.png) no-repeat;
+}
+
+#clik img:hover{
+	
+    -webkit-transform: scale(1.1,1.1);
+    transition: 0.3s;
+    }
