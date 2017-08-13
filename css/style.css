@@ -66,11 +66,23 @@ h2{
 
 #me{
 	padding: 0;
-	margin: 0;
+	margin-top: 20px;
+	width: 300px;
 }
 #home{
-	width: 50%;
-	border-radius: 10px;
+	font-family: 'Josefin Slab';
+	font-size: 30px;
+	font-weight: 1200px;
+	width: 40%;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 6px;
+	border:1px solid #2f2f2f;
+	margin-left: 30%;
+	
+	line-height: 38px;
+	padding: 10px 20px 10px 20px;
 }
 
 /* -- -- -- -- -- -- */
@@ -161,16 +173,20 @@ h2{
 }
 .col.md{
 	width: 210px;
-	box-shadow: 0 10px 12px 0 rgba(0,0,0,0.1);
+	
     transition: 0.3s;
     height: 210px;
     border-radius: 0px;
     cursor:pointer;
-   	line-height: 320px;
+   	line-height: 390px;
    	font-weight: bold;
-   
+   background-image:url(../img/file.png); 
+    background-size: 120px auto;
+     background-repeat: no-repeat;background-position: center;
 }
-
+#file2{
+	background-image:url(../img/file2.png);
+}
 .col.md2{
 	width: 0px;
 	box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
@@ -196,13 +212,7 @@ h2{
 	color: #028DB4;
 
 }
-#udacity{
-	
-	   background-image: url('http://www.kdnuggets.com/wp-content/uploads/udacity-logo.jpg');
-		background-size: 200px auto;
-     background-repeat: no-repeat;background-position: center top;
 
-}
 
 .col.sm{
 	width: 12%;
@@ -253,53 +263,8 @@ h2{
 
 /* Project Tiles  */
 
-#crawler{
-	background-image: url('img/wall/1.png'); 
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
 
 
-#microservices{
-background: #05BC91;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#pinterest{
-background:#8A47BD;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#tweeter{
-background:#D9B860;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#log{
-background:#028DB4;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#affinity{
-background: #C04165;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#chat{
-background: #CD793E;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#snippets{
-	background: #C04165;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
-#land{
-	background: #D9B860;
-    background-size: 130px 130px;
-     background-repeat: no-repeat;background-position: center;
-}
 /* -- -- -- -- -- -- -- */
 
 /* Profiles */
@@ -437,7 +402,7 @@ li {
 	width: 60%;
 	display: block;
 	text-align: center;
-	padding-left: 20%;
+	margin-left: 20%;
 }
 
 /* -- -- -- -- -- -- */
