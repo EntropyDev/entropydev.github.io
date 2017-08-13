@@ -37,6 +37,7 @@ body{
   
   
 }
+
 .content{
 	text-align:center;
 }
@@ -66,8 +67,8 @@ h2{
 
 #me{
 	padding: 0;
-	margin-top: 20px;
-	width: 300px;
+	
+	width: 180px;
 }
 #home{
 	font-family: 'Josefin Slab';
@@ -403,6 +404,7 @@ li {
 	display: block;
 	text-align: center;
 	margin-left: 20%;
+	border-top: 1px solid #D7D7D7 ;
 }
 
 /* -- -- -- -- -- -- */
