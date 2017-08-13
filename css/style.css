@@ -179,7 +179,7 @@ h2{
     height: 210px;
     border-radius: 0px;
     cursor:pointer;
-   	line-height: 390px;
+   
    	font-weight: bold;
    background-image:url(../img/file.png); 
     background-size: 120px auto;
@@ -251,13 +251,26 @@ h2{
   background: #fff;
   box-shadow: none;
   color: #2f2f2f;
-  line-height: 50px;
+  width: 80%;
+  line-height: 24px;
   text-align: center;
   transform: rotateY(180deg);
   font-family: "Bellefair";
-  font-size: 26px;
+  font-size: 18px;
 }
+.button{
+	  width: 100px;
+  padding: 8px 18px;
+  text-align: center;
+  color: #05BC91;
+  border: solid 2px #05BC91;
+  z-index: 1;
 
+}
+.col.md:hover .front{
+	transition:0.2s;
+	visibility: hidden;
+}
 /* -- -- -- -- -- -- */
 
 
