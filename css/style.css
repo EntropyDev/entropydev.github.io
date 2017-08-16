@@ -66,7 +66,7 @@ h2{
 
 
 #me{
-	padding: 0;
+	padding-top: 10px;
 	
 	width: 180px;
 }
@@ -84,6 +84,20 @@ h2{
 	
 	line-height: 38px;
 	padding: 10px 20px 10px 20px;
+}
+
+#top-line{
+	
+	font-family: 'Josefin Slab';
+	font-size: 36px;
+}
+
+.black{
+	
+	color: #38B872;
+}
+nav{
+
 }
 
 /* -- -- -- -- -- -- */
@@ -123,7 +137,7 @@ h2{
 }
 
 .inner{
-	padding-top: 0px;
+	padding-top: 14px;
 }
 
 .center{
@@ -159,7 +173,7 @@ h2{
 
 
 .col.sm:hover{
-	-webkit-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.15,1.15);
 	-webkit-transition: 0.8s;
 }
 .col:first-child{
@@ -178,11 +192,11 @@ h2{
     transition: 0.3s;
     height: 210px;
     border-radius: 0px;
-    cursor:pointer;
+    
    
    	font-weight: bold;
    background-image:url(../img/file.png); 
-    background-size: 120px auto;
+    background-size: 100px auto;
      background-repeat: no-repeat;background-position: center;
 }
 #file2{
@@ -193,7 +207,7 @@ h2{
 	box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
     height: 0;
-    border-radius: 0px;
+    border-radius: 4px;
     cursor:pointer;
     font-size: 30px;
    line-height: 80px;
@@ -220,19 +234,19 @@ h2{
 	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
    cursor:pointer;   
-    height:150px;
-    width:150px;
+    height:120px;
+    width:120px;
     line-height: 350px;
     font-weight: bold;
     -webkit-border-radius:75px;
     -moz-border-radius:75px;
-    
+    margin-right: 52px;
 	}
 
 
 .col.md2:hover{
-	-webkit-transform: scale(1.15,1.15);
-	transition: 0.8s;
+	-webkit-transform: scale(1.1,1.1);
+	transition: 0.9s;
 }
 
 /* -- -- -- -- -- -- */
@@ -260,11 +274,12 @@ h2{
 }
 .button{
 	  width: 100px;
-  padding: 8px 18px;
+  padding: 5px 10px;
   text-align: center;
-  color: #05BC91;
-  border: solid 2px #05BC91;
+  color: #38B872;
+  border: solid 1px #05BC91;
   z-index: 1;
+  cursor: pointer;
 
 }
 .col.md:hover .front{
@@ -285,24 +300,24 @@ h2{
 
 #github{
 	background-image: url(https://image.flaticon.com/icons/png/512/25/25231.png);
-    background-size: 130px 130px;
+    background-size: cover;
      background-repeat: no-repeat;background-position: center;
 }
 #linkedin{
 	background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png);
-    background-size: 150px 150px;
+    background-size: cover;
      background-repeat: no-repeat;background-position: center
 
 }
 #codepen{
 	background-image: url(http://www.katarzyna-kwasniewska.co.uk/img/codepen.png);
-    background-size: 130px 130px;
+    background-size: cover;
      background-repeat: no-repeat;background-position: center
 
 }
 #freecodecamp{
 	background-image: url(https://image.ibb.co/bKeMUk/fcc.png);
-    background-size: 130px 130px;
+    background-size: cover;
      background-repeat: no-repeat;background-position: center
 
 }
@@ -458,7 +473,7 @@ li {
 }
 
 #clik img:hover{
-	
+	cursor: pointer;
     -webkit-transform: scale(1.1,1.1);
-    transition: 0.3s;
+    transition: 0.5s ease-in;
     }

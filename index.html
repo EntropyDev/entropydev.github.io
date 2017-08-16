@@ -31,11 +31,11 @@
 	
 		<nav>
 			<a href="#" id= "menu-icon"></a>
-			
+			<img src="img/me.png" class="col animated fadeInDown" id="me">
 				<h2>Vaibhav Chimalgi</h2>
 				
 		
-		</nav></div><br>
+		</nav></div>
 	
 
 	<!-- TopSection -->
@@ -44,11 +44,11 @@
 		<div class="col lg"><br><br>
 		<img class="animated flipInX" width="60%" src="img/aboutme.png"><br><br><br>
 		
-			<div class="about">	<section class="aboutme animated lightSpeedIn"><p>" Developing viable and efficient applications and to pursue a career in web and mobile development. "</p>
-		</section></div><img src="img/me.png" class="col animated fadeInUp" id="me">
+			<div class="about">	<section class="aboutme animated lightSpeedIn"><p>" I work on developing viable and efficient web applications. "</p><p id="top-line">i <span class="black">R</span>ead<span class="black">E</span>at<span class="black">S</span>leep<span class="black">T</span>alk code.</p>
+		</section></div>
 		</div>
 
-</div>
+</div></div>
 
 
 <!-- Projects -->
@@ -113,7 +113,7 @@
 		</div>
 
 	<div class="progress">
-		<div class="text" id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+			<div class="text" id="text">Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to make applications. At the moment I’m primarily using Nodejs and AngularJs.</div>
 		<div class="snake">
 			
 		    <div class="ribbon" id="ribbon"><span id="dot"></span></div>
@@ -173,16 +173,21 @@ function move(){
   clik.style.display = 'none';
   var id = setInterval(frame, 70);
   function frame() {
+  	if(width == 1){
+  		text.innerHTML = "Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to make applications. At the moment I’m primarily using Nodejs and AngularJs. ";
+  	}
 
     if (width >= 100) {
     	clik.style.display = 'initial';
-      text.innerHTML = "Hire me";
+      text.innerHTML = "I am an apprentice of Open Source and <br> I am strong with the force. <br> Hire me !! ";
       clearInterval(id);
     } else {
 
-      if(width == 20) text.innerHTML = "first";
-      if(width == 40) text.innerHTML = "second";
-      width++; 
+      if(width == 30) text.innerHTML = "I have experience in Django and Rails development. I am currently in the process of sharpening my skills and expanding my horizon. ";
+
+      if(width == 80) text.innerHTML = "I am an apprentice of Open Source and <br> I am strong with the force.<br> Hire me !! ";
+      
+      width += 1/2;; 
       elem.style.width = width + '%'; 
     }
   }
