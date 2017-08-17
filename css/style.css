@@ -94,7 +94,7 @@ h2{
 
 .black{
 	
-	color: #38B872;
+	color: #05BC91;
 }
 nav{
 
@@ -306,21 +306,27 @@ nav{
 #linkedin{
 	background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png);
     background-size: cover;
-     background-repeat: no-repeat;background-position: center
+     background-repeat: no-repeat;background-position: center;
 
 }
 #codepen{
 	background-image: url(http://www.katarzyna-kwasniewska.co.uk/img/codepen.png);
     background-size: cover;
-     background-repeat: no-repeat;background-position: center
+     background-repeat: no-repeat;background-position: center;
 
 }
 #freecodecamp{
 	background-image: url(https://image.ibb.co/bKeMUk/fcc.png);
     background-size: cover;
-     background-repeat: no-repeat;background-position: center
+     background-repeat: no-repeat;background-position: center;
 
 }
+#codeschool{
+	background-image: url(https://www.codeschool.com/assets/pages/brand/downloads/brand-mark-47100518b9ef3c7d41cb081576451d74f8ce24b4cc6f7948cb6913f84da3072d.png);
+	background-size: cover;
+	background-repeat: no-repeat;background-position: center;
+}
+
 
 /* -- -- -- -- -- */
 
