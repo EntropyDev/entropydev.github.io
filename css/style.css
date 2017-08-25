@@ -94,7 +94,7 @@ h2{
 
 .black{
 	
-	color: #05BC91;
+	color: #6BA7E5;
 }
 nav{
 
@@ -114,6 +114,7 @@ nav{
 
 .full-page:nth-child(odd) {
     background: #EEF1F6;
+     -webkit-box-shadow: inset 25px 0 25px -16px #D7D7D7, -1px 0 0 #FFF;
 }
 
 .row{
@@ -356,7 +357,7 @@ nav{
 .progress{
 	width: 50%;
 	padding-left: 25%;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 
 .text{
@@ -446,7 +447,7 @@ li {
 /*  Footer  */
 
 .hashtag{
-	bottom: 0;
+	bottom: 0px;
 
 }
 
