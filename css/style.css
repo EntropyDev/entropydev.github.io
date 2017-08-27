@@ -109,6 +109,7 @@ nav{
     width:100%;
     height: auto;
     position: relative;
+    min-height: 900px;
 }
 
 
@@ -267,11 +268,16 @@ nav{
   box-shadow: none;
   color: #2f2f2f;
   width: 80%;
-  line-height: 24px;
-  text-align: center;
+  line-height: 22px;
+
+  text-align: left;
   transform: rotateY(180deg);
-  font-family: "Bellefair";
-  font-size: 18px;
+  font-family: "Josefin Slab";
+  font-size: 20px;
+
+}
+.back p {
+	width: 70%;
 }
 .button{
 	  width: 100px;

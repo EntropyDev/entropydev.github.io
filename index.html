@@ -58,23 +58,23 @@
 	<img src="img/chem.png" width="75px;">
 	<h3>Projects </h3><br><br>
 		<div class="row">
-			<div class="col md" id="crawler"><span class="front">Web Crawler</span></span><div class="side back">Web Crawler using python bla bla bla<br><p><a class="button">view</a></p></div>
+			<div class="col md" id="crawler"><span class="front">Web Crawler</span></span><div class="side back">A basic webcrawler built using python<p><a class="button">view</a></p></div>
 			</div>
-			<div class="col md" id="affinity"><span class="front">Affinity</span><div class="side back">Affinity<br><p><a class="button">view</a></p></div></div>
-			<div class="col md" id="tweeter"><span class="front">Tweeter</span><div class="side back">Tweeter<br><p><a class="button">view</a></p></div></div>
-			
+			<div class="col md" id="affinity"><span class="front">Affinity</span><div class="side back">An editorial style website with user auth<p><a class="button">view</a></p></div></div>
+				
+			<div class="col md" id="pinterest"><span class="front">Pinterest</span><div class="side back">A basic clone of pinterest built with ruby on rails<p><a class="button">view</a></p></div></div>		
 		</div>
 		<div class="row inner">
-			<div class="col md" id="pinterest"><span class="front">Pinterest</span><div class="side back">Pinterest<br><p><a class="button">view</a></p></div></div>
 			
-			<div class="col md" id="log"><span class="front">Landing Page</span><div class="side back">Landing page<br><p><a class="button">view</a></p></div></div>
-			<div class="col md" id="file2"><span class="front">Code Snippets</span><div class="side back">Code Snippets<br><p><a class="button">view</a></p></div></div>
+			
+			<div class="col md" id="log"><span class="front">Landing Page</span><div class="side back">A basic static landing page<p><a class="button">view</a></p></div></div>
+			<div class="col md" id="file2"><span class="front">Code Snippets</span><div class="side back">Simple css and javscript pens on codepen<p><a class="button">view</a></p></div></div>
 		</div>
-		<div class="row inner">
+		<!--<div class="row inner">
 			
 			<div class="col md" id="file2"><span class="front">Microservices</span><div class="side back">Microservices<br><p><a class="button">view</a></p></div></div>
 			
-			</div>
+			</div> -->
 </div>
 
 
@@ -93,7 +93,7 @@
 		<div class="col md2" ><div id="udacity"></div>5.<a>Browser Rendering Optimization</a>(<span id="coursera">Udacity</span>)</div>
 		<div class="col md2" ><div id="udacity"></div>6.<a>Web Accessibility</a>(<span id="coursera">Udacity</span>)</div>
 		<div class="col md2" ><div id="udacity"></div>7.<a>Javascript Testing</a>(<span id="coursera">Udacity</span>)</div>
-		<div class="col md2"><div id="udacity"></div>8.<a>Google maps APIs</a>(<span id="coursera">Udacity</span>)</div>
+		
 	</div>
 	<br><br>
 </div>
@@ -108,12 +108,12 @@
 			<div class="col sm" id="github">Github</div>
 			<div class="col sm" id="linkedin">Linkedin</div>
 			<div class="col sm" id="freecodecamp">Freecodecamp</div>
-			<div class="col sm" id="codeschool">Codeschool</div>	
+				
 			<div class="col sm" id="codepen">Codepen</div>
 		</div>
 
 	<div class="progress">
-			<div class="text" id="text">Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to make applications. At the moment I’m primarily using Nodejs and AngularJs.</div>
+			<div class="text" id="text">Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to build applications. At the moment I’m primarily working on AngularJs and NodeJs.</div>
 		<div class="snake">
 			
 		    <div class="ribbon" id="ribbon"><span id="dot"></span></div>
@@ -174,18 +174,18 @@ function move(){
   var id = setInterval(frame, 70);
   function frame() {
   	if(width == 1){
-  		text.innerHTML = "Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to make applications. At the moment I’m primarily using Nodejs and AngularJs. ";
+  		text.innerHTML = "Hey, I’m a full stack jedi from Hyderabad, India. I use web technologies to build applications. At the moment I’m primarily working on AngularJs and NodeJs.";
   	}
 
     if (width >= 100) {
     	clik.style.display = 'initial';
-      text.innerHTML = "I am an apprentice of Open Source and <br> I am strong with the force. Hire me !! ";
+      text.innerHTML = "I am an apprentice of Open Source <br> and I am strong with the force.<br> Hire me !! ";
       clearInterval(id);
     } else {
 
       if(width == 30) text.innerHTML = "I have experience in NodeJs,Django,Rails development. I am currently in the process of sharpening my skills and expanding my horizon. ";
 
-      if(width == 80) text.innerHTML = "I am an apprentice of Open Source and <br> I am strong with the force. Hire me !! ";
+      if(width == 80) text.innerHTML = "I am an apprentice of Open Source <br> and I am strong with the force.<br> Hire me !! ";
       
       width += 1/2;; 
       elem.style.width = width + '%'; 
