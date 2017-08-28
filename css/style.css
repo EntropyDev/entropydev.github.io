@@ -287,8 +287,14 @@ nav{
   border: solid 1px #05BC91;
   z-index: 1;
   cursor: pointer;
-
+  text-decoration: none;
+ 
 }
+.button:hover{
+	background-color: #05BC91;
+	color: white;
+}
+
 .col.md:hover .front{
 	transition:0.2s;
 	visibility: hidden;
