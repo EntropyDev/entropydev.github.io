@@ -13,7 +13,7 @@ body{
 	min-width: 320px;
 	overflow-x: hidden;
 	background: transparent;
-	
+
 	color: #2f2f2f;
 
 }
@@ -30,12 +30,12 @@ body{
   border-width: 0;
   outline: none;
   border-radius: 3px;
-  
+
   line-height: 22px;
   background-color: #3ABA73;
   color: #2f2f2f;
-  
-  
+
+
 }
 
 .content{
@@ -43,7 +43,7 @@ body{
 }
 
 img{
-	user-drag: none; 
+	user-drag: none;
 user-select: none;
 -moz-user-select: none;
 -webkit-user-drag: none;
@@ -67,7 +67,7 @@ h2{
 
 #me{
 	padding-top: 10px;
-	
+
 	width: 180px;
 }
 #home{
@@ -81,19 +81,19 @@ h2{
 	border-radius: 6px;
 	border:1px solid #2f2f2f;
 	margin-left: 30%;
-	
+
 	line-height: 38px;
 	padding: 10px 20px 10px 20px;
 }
 
 #top-line{
-	
+
 	font-family: 'Josefin Slab';
 	font-size: 36px;
 }
 
 .black{
-	
+
 	color: #6BA7E5;
 }
 nav{
@@ -119,18 +119,18 @@ nav{
 }
 
 .row{
-	
+
 	width: 100%;
 	min-height: 1px;
 	float: center;
-	
+
 }
 
 .col{
 	background: transparent;
 	min-height: 40px;
-	
-	
+
+
 	display: inline-block;
 	float: center;
 	font-family: 'Josefin Slab', cursive;
@@ -190,14 +190,14 @@ nav{
 }
 .col.md{
 	width: 210px;
-	
+
     transition: 0.3s;
     height: 210px;
     border-radius: 0px;
-    
-   
+
+
    	font-weight: bold;
-   background-image:url(../img/file.png); 
+   background-image:url(../img/file.png);
     background-size: 100px auto;
      background-repeat: no-repeat;background-position: center;
 }
@@ -213,8 +213,8 @@ nav{
     cursor:pointer;
     font-size: 30px;
    line-height: 80px;
-   	font-weight: bold;  
-	
+   	font-weight: bold;
+
 	display: inline;
 	color: #2f2f2f;
 }
@@ -225,7 +225,7 @@ nav{
 	padding-right: 14px;
 }
 #coursera{
-	
+
 	color: #028DB4;
 
 }
@@ -235,7 +235,7 @@ nav{
 	width: 12%;
 	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
-   cursor:pointer;   
+   cursor:pointer;
     height:120px;
     width:120px;
     line-height: 350px;
@@ -288,7 +288,7 @@ nav{
   z-index: 1;
   cursor: pointer;
   text-decoration: none;
- 
+
 }
 .button:hover{
 	background-color: #05BC91;
@@ -317,7 +317,7 @@ nav{
      background-repeat: no-repeat;background-position: center;
 }
 #linkedin{
-	
+
 
 	background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png);
     background-size: cover;
@@ -336,8 +336,14 @@ nav{
      background-repeat: no-repeat;background-position: center;
 
 }
+#hackerrank{
+	background-image: url(https://assets.brandfolder.com/y9ol94wb/v/331198/view.png);
+    background-size: cover;
+     background-repeat: no-repeat;background-position: center;
+
+}
 #codeschool{
-	background-image: url(https://www.codeschool.com/assets/pages/brand/downloads/brand-mark-47100518b9ef3c7d41cb081576451d74f8ce24b4cc6f7948cb6913f84da3072d.png);
+	background-image: url(https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png);
 	background-size: cover;
 	background-repeat: no-repeat;background-position: center;
 }
@@ -350,7 +356,7 @@ nav{
 .menu a,h4{
 	padding-right: 11px;
 	text-decoration: none;
-	
+
 	font-family: 'Bellefair';
 	font-size: 17px;
 	color: #2f2f2f;
@@ -385,17 +391,17 @@ nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 	margin: 0 auto;
 	padding: 20px;
-  
+
 	list-style: none;
- 
+
 }
 
 li {
 	display: inline-flex;
-  	
+
 	display: block;
 	height: 20px;
 	position: absolute;
